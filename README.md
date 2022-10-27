@@ -22,7 +22,7 @@ Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
-**Algorithm Category:** Regression, Classification
+**Algorithm Category:** Supervise Univariate Regression
 
 **Purpose:** Data Cleaning, Apply Algorithm
 
