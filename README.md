@@ -1,24 +1,14 @@
-# 3.3-DS_Project_Template
-
-Descritpion Template
-Person Side Project Portfolio. Also included a few resources on side that I found helpful.
-
-Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
-
-# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>$(Project_Name{Github})[![View My Profile]
+# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>House Model Price Prediction
 
 <a href="https://github.com/bdfd"><img src="https://img.shields.io/github/followers/bdfd?label=Follow%20Me&logo=github" alt="GitHub Followers" /></a>
-![ViewCount](<https://views.whatilearened.today/views/github/$(github_user)/$(repo_address).svg?cache=remove>)
-![GitHub top language](<https://img.shields.io/github/languages/top/$(github_user)/$(repo_address)?style=flat>)
-![GitHub language count](<https://img.shields.io/github/languages/count/$(github_user)/$(repo_address)?style=flat>)
+![ViewCount](https://views.whatilearened.today/views/github/bdfd/Project_02-House_Model_Price_Prediction.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/bdfd/Project_02-House_Model_Price_Prediction?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/bdfd/Project_02-House_Model_Price_Prediction?style=flat)
 <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" />
-<img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/On_Progress.svg" alt="bdfd" />
 
 ## Applied Learning Project
 
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Advanced-red.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
+<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
@@ -26,39 +16,36 @@ Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
 
 **Purpose:** Data Cleaning, Apply Algorithm
 
-**Algorithm:** Univariate Linear Regression, Multivariate Linear Regression
+**Algorithm:** Linear Regression, Descision Tree, Random Forest
 
-**Libraries:** Pandas, NumPy
+**Libraries:** Pandas, NumPy, Matplotlib, Seaborn, and Scikit-Learn
 
-**Projects:** ABC Project Name
+**Projects:** House Model Price Prediction
 
 **Problem Description**  
-Predict the porfit of startup compnay with folloing fileds
-
-**Problem Task**  
-Predict the porfit of startup compnay with folloing fileds
+Target Variable of Datasets is predicting about House Value based on following given filed parameter.
 
 **Problem Variables**  
 There are two tables could be merged by ID
 
-| Field           | Description                                  | Unit      | dtype               | Comments   |
-| --------------- | -------------------------------------------- | --------- | ------------------- | ---------- |
-| Table 1         | application_record.csv                       | -----     | Constant            | ---------- |
-| R&D             | Spend on Research and Development            | US Dollar | Binary Category     | ---------- |
-| Aministration   | Spend on administration events or activities | US Dollar | Non Binary Category | ---------- |
-| Marketing Spend | Spend on marketing and advertistment         | US Dollar | Constant            | ---------- |
-| State           | Company Location                             | state     | Continous           | ---------- |
-| Profit          | Company earning by spending throughtout year | US Dollar | --------            | ---------- |
+| Field              | Description          | Unit      | dtype               | Comments        |
+| ------------------ | -------------------- | --------- | ------------------- | --------------- |
+| Table 1            | housing.csv          |           | Table Name          | ----------      |
+| Longitude          | Location             |           | Continuous          | ----------      |
+| Latitude           | Location             |           | Continuous          | ----------      |
+| Housing Median Age | Age                  |           | Continuous          | ----------      |
+| Total Rooms        | Total Living Area    |           | Continuous          | ----------      |
+| Total Bedrooms     | Bedroom Area Count   |           | Continuous          | ----------      |
+| Population         | Number of People     |           | Continuous          | ----------      |
+| Households         | Number of Households |           | Continuous          | ----------      |
+| Median Income      | Average Income       |           | Continuous          | ----------      |
+| Median House Value | Average House Value  | US Dollar | Continuous          | Traget Variable |
+| Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
 
 **Reference:**  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>  
-Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_x.csv">Train_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_y.csv">Train_y.csv</a>  
-Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_x.csv">Test_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_y.csv">Test_y.csv</a>  
-Demo:<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/Salary_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
-Visualization:<a href="https://github.com/bdfd/Section6.Project04_Customer_Segmentation/blob/main/display%20demo/Clustering_Bivariate.png">Train Result</a>,<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/display%20demo/test%20result.png">Test Result</a>
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Project_02-House_Model_Price_Prediction/main/dataset/housing.csv">Original Dataset.csv</a>  
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Project_02-House_Model_Price_Prediction/main/display%20demo/processed%20dataset.csv">Processed Dataset.csv</a>  
+Demo:<a href="https://github.com/bdfd/Project_02-House_Model_Price_Prediction/blob/main/House_Model_Price_Prediction.ipynb">Jupyter Notebook/Colab Link</a>
 <br>
 
 <div align="center">
